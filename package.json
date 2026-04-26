@@ -11,8 +11,8 @@
     "prepublish": "npx tsdown"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "fowlestota",
+  "license": "MIT",
   "devDependencies": {
     "tsdown": "^0.21.10",
     "typescript": "^6.0.3"
