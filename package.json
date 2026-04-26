@@ -1,0 +1,19 @@
+{
+  "name": "canvas-vm",
+  "version": "26.1.0-alpha1",
+  "description": "Runtime for the Canvas web-based game engine",
+  "type": "module",
+  "module": "dist/canvas.mjs",
+  "types": "dist/canvas.d.mts",
+  "scripts": {
+    "build": "npx tsdown",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsdown": "^0.21.10",
+    "typescript": "^6.0.3"
+  }
+}
