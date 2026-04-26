@@ -7,7 +7,7 @@
   "types": "dist/canvas.d.mts",
   "scripts": {
     "build": "npx tsdown",
-    "prepublish": "npm run build"
+    "prepare": "npx tsdown"
   },
   "keywords": [],
   "author": "",
